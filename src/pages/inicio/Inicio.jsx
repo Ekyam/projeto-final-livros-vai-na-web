@@ -24,7 +24,7 @@ export default function Inicio(){
 
 <section>
     <img src={ reading } alt="Imagem ilustrando uma pessoa lendo um livro" />
-    <p>Estimula o hábito da leitura e o aprendizado contínu</p>
+    <p>Estimula o hábito da leitura e o aprendizado contínuo</p>
 </section>
 
 <section>

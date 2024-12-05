@@ -3,27 +3,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center the form vertically */
+    justify-content: center; 
+    padding: 20%;
   }
   p{
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
   }
   
   form {
     border: solid 3px #005695;
     border-radius: 20px;
     height: 70vh;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-left: 35%;
-    padding-bottom: 20px;
+    margin-bottom: 5%;
   
     div {
         width: 90%;
@@ -35,12 +36,12 @@
     }
     input {
         
-        width: 50%;
+        width: 60%;
         height: 5vh;
         border: solid #005695;
         border-radius: 15px;
         padding-left: 20px;
-
+        
         &::placeholder {
             color: #000;
 
@@ -72,5 +73,8 @@
         width: 95%;
         font-size: 14px;
         margin-left: 2%;
+    }
+    input {
+        width: 40%;
     }
 }
